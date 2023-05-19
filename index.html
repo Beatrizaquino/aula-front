@@ -4,44 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body>
-    <form id="forms">
-        <div>
-            <label for="name">Nome</label>
-            <input type="text" id="name">
-        </div>
-        <div>
-            <label for="email">E-mail</label>
-            <input type="email" id="email">
-        </div>
-        <div>
-            <label for="curso" >Curso</label>
-            <select  id="curso">
-                <option value="html_e_css">HTML & CSS</option>
-                <option value="git">Git</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="Mongo">MongoDb</option>
-            </select>
-        </div>
+    <form id="forms" class="forms">
+        <h1>You must Sing in to join</h1>
+        <p>We're A Team That Guides Each Other</p>
 
-        <div>
-            <label for="atendimento">Atendimento</label>
-            <textarea name="atendimento" id="atendimento" cols="30" rows="10"></textarea>
-        </div>
+            <div class="nome">
+                <label for="nome">Nome </label>
+                <input type="text" id="nome" placeholder="Ex: Beatriz Alves">
+            </div>
+            <div class="email">
+                <label for="email">Email </label>
+                <input type="email" id="nome" placeholder="Ex: beatriz@gmail.com">
+            </div>
+            <div class="sexo">
+                <label for="">Sexo </label>
 
-        <div>
-            <input type="checkbox" id="checkbox">
-            <label for="termos">Estou de acordo com issu</label>
-        </div>
+                <input type="radio" id="masculino" name="sexo">
+                <label for="masculino" >Masculino</label>
 
-        <div>
-            <input type="submit" value="Adiconar">
-        </div>
-    </form>
-    <button id="menssage">Mensagem</button>
+                <input type="radio" id="feminino" name="sexo"  checked>
+                <label for="feminino" >Feminino</label>
+            </div>
+    
+            <div class="password">
+                <label for="passworld">Senha </label>
+                <input type="password" id="nome" placeholder="Ex: Gt5%&jsm">
+            </div>  
+            
+            <div class="curso">
+                <label for="curso">Curso </label>
+                <select name="" id="">
+                    <option value="">HTML CSS</option>
+                    <option value="" selected>JAVASCRIPT</option>
+                    <option value="">GIT</option>
+                    <option value="">PHP</option>
+                </select>
+            </div>
+
+            <div class="atendimento">
+                <label for="">Descrição</label>
+                <textarea name="" ></textarea>
+            </div>
+
+            <div class="chekbox">
+                <input type="checkbox" id="termos">
+                <label for="termos">Estou de acordo com os termos de serviços
+                </label>
+            </div>
+
+            <div class="botao">
+                <button>Realizar inscrição</button>
+            </div>
 
     <script src="script.js"></script>
 </body>

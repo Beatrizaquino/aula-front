@@ -1,5 +1,5 @@
 const form = document.querySelector("#forms");
-const nome = document.querySelector("#name");
+const nome = document.querySelector("#nome");
 const menssage = document.querySelector("#menssage");
 const email = document.querySelector("#email");
 const curso = document.querySelector("#curso");
