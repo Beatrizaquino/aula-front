@@ -15,8 +15,8 @@ const incricao = {
     nome: nome.value,
     email: email.value,
     curso: curso.value,
-    atendimento: atendimento.value
-    
+    atendimento: atendimento.value,
+    checkbox: checkbox.checked
 }
 nome.focus();
 
@@ -26,7 +26,7 @@ console.table(incricao);
 nome.value = "";
 email.value = "";
 atendimento.value = "";
-curso.selectIndex = 0;
+curso.selectedIndex = 0;
 
 });
 
